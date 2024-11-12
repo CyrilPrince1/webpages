@@ -1,0 +1,116 @@
+.top-container{
+    background-color:#EEF5FF ;
+    position: relative;
+    padding-top: 100px;
+}
+.parent{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 3rem;
+    justify-content: baseline;
+    align-items: center;
+    padding-top: 30px;
+}
+hr{
+    border: 0;
+}
+
+.div-img{
+    height: 200px;
+    width: 500px;
+    padding-left: 150px;
+}
+
+
+.top-cloud{
+    position: absolute;
+    height: 100px;
+    right: 300px;
+    top: 30px;
+}
+.middle-cloud{
+    position:absolute;
+    height: 100px;
+    bottom: 50px;
+    left: 30px;
+}
+.down-cloud{
+    position: relative;
+   height: 200px;
+   width: 300px; 
+    
+    padding-bottom: 10px;
+}
+.title-text{
+    text-align: center;
+    padding-bottom: 100px;
+    color: rgb(54, 230, 230);
+    
+}
+
+h1{
+    font-family: "Merriweather", serif;
+  font-weight: 300;
+  font-style: italic;
+  padding-top: 40px;
+}
+h2{
+    padding-top: 30px;
+    color: rgb(7, 204, 204);
+}
+.pro{
+   text-decoration: underline;
+}
+.middle-container{
+    padding-top: 50px;
+    text-align: center;
+}
+.goat{
+    height: 300px;
+    width: 300px;
+   
+    border-radius: 50%;
+
+}
+p{
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.btn{
+    background-color: #11cdd4;
+    color: white;
+    font-weight: 100;
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    font-size: 20px;
+    border-radius: 8px;
+    
+}
+body{
+    color: #40514e;
+    font-family: "Merriweather", serif;
+    text-align: center;
+
+}
+.contact-message{
+    padding-top: 20px;
+    text-align: center;
+}
+.btn:hover{
+background: #30e3cb;
+background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+text-decoration: none;
+}
+.contact-me{
+    padding-bottom: 20px;
+}
+.bottom-container{
+    background-color: #66bfbf;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+a{
+    color: #11999e;
+    margin:10px 20px ;
+    font-family:  "Montserrat", sans-serif;
+}
